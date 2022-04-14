@@ -133,10 +133,22 @@
   pip install -r requirements.txt
   ```
 
-- 将目标文件放入Images文件夹中，执行如下命令
+  如果在大陆您的下载过慢，可尝试使用清华源
+
+  ```bash
+  pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+  ```
+
+- 将目标文件放入Images文件夹中，执行如下命令(如果您的操作环境是Linux/Macos)
 
   ```bash
   python3 Code/cannyEdge.py --image_folder Images --save_folder Results
   ```
 
+  如果你的操作环境是Windows，执行下面命令
+
+  ```bash
+  python Code//cannyEdge.py --image_folder Images --save_folder Results
+
 - 此时即可在Results文件夹下看到结果
+
